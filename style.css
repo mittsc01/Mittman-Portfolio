@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+/*style links*/
+
+a:hover {
+    color: rgb(211, 211, 58)
+}
+a:active {
+    color: rgb(54, 201, 54)
+}
+
+/*format navigation menu*/
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display:flex;
+    
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 0;
+    
+}
+nav ul li a{
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+
+
+}
+nav ul li:last-child a{
+    margin-right: 0px;
+}
+
+/*Center text for all headings and image*/
+.text-center {
+    text-align: center
+}
+
+
+
+
+
+
+
+/*make page background light blue*/
+body {
+    background-color: rgb(173, 220, 228);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*style section text*/
+
+
+p {
+    font-size: 12px;
+    margin-inline-start: 15px;
+    margin-inline-end: 15px;
+}
+h2 {
+    font-size: 20px;
+    text-decoration:underline;
+}
+h3 {
+    margin-inline-start: 15px;
+}
+footer p {
+    font-size: 10px;
+    color: white;
+    padding-top: 20px;
+}
+footer {
+    background-color:black;
+    height: 50px;
+    
+}
+
+/*format section dividers*/
+
+hr {
+    height: 5px;
+    background-color: white;
+    border: 2px solid black;
+    
+    
+  }
+
+
+img {
+    width: 100%;
+    
+}
+ol, ul {
+    font-size: 12px;
+}
+/* Style for larger screens */
+@media all and (min-width: 600px) {
+    img {
+      width: 600px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    p, ol, ul {
+        font-size: 14px;
+    }
+    article {
+        width: 75%;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 30px;
+    }
+    header nav {
+        margin-top: 16px;
+    }
+    header h1 {
+        margin: 14px 0px;
+    }
+
+  }
+/*Create responsive layout for page */
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.item {
+    flex:1;
+    
+    
+}
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding:20px;
+    margin: 0;
+    font-size: 30px;
+}
+
+header {
+    background-color: black;
+    margin-bottom: 40px;
+    
+}
+/*Style contact form */
+form {
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+    
+}
+form input, textarea{
+    margin: 0 10px 10px 10px;
+}
+
+form label {
+    margin: 0 10px;
+}
+form button {
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: 0;
+    font-family: Tahoma;
+    font-size: 16px;
+    background: rgb(228, 67, 220);
+    color: #fff;
+    margin: 0 8px 10px 0;
+    
+}
+
+#splatter-div img{
+    
+    width: 40%;
+    
+    
+}
+
+
+
